@@ -31,7 +31,7 @@ const Footer = () => {
         <div className="left">
           <span className="logo"><img src={photo4}/></span>
           <span className="copyright">
-            © Copyright 2024 Beautify3. All Rights Reserved
+            © Copyright 2024 Beautify6. All Rights Reserved
           </span>
         </div>
         <div className="right">
