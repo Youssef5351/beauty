@@ -25,10 +25,10 @@ const Navbar = () => {
           <div className="center">
             <Link className ="link" to="/"><img src={photo} alt=""/></Link>
           </div>
-          <div className="item3">
+          <div className="item">
             <Link className ="link" to="/">Contact</Link>
           </div>
-          <div className="item4">
+          <div className="item">
             <Link className ="link" to="/products/3">Products</Link>
           </div>
           <div className="icons">
@@ -72,10 +72,10 @@ const Navbar = () => {
           </div>
           <div className="item">
           </div>
-          <div className="item2">
+          <div className="item">
             <Link className ="link" to="/products/1">Women</Link>
           </div>
-          <div className="item1">
+          <div className="item">
             <Link className ="link" to="/products/2">Men</Link>
           </div>
         </div>
