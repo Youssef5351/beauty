@@ -1,16 +1,18 @@
 import React, { useState } from "react";
 import EastOutlinedIcon from "@mui/icons-material/EastOutlined";
 import WestOutlinedIcon from "@mui/icons-material/WestOutlined";
-import "./photo3.jpg"
+import photo from "../../assets - Copy/white.webp"
+import photo1 from "../../assets - Copy/lattafa.webp"
+import photo2 from "../../assets - Copy/gor.webp"
 import "./Slider.scss";
 
 const Slider = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
 
   const data = [
-    
-    "https://images.pexels.com/photos/949670/pexels-photo-949670.jpeg?auto=compress&cs=tinysrgb&w=1600",
-    "https://images.pexels.com/photos/837140/pexels-photo-837140.jpeg?auto=compress&cs=tinysrgb&w=1600",
+    photo,
+    photo1, 
+    photo2,
   ];
 
   const prevSlide = () => {
@@ -30,9 +32,11 @@ const Slider = () => {
       <div className="icons">
         <div className="icon" onClick={prevSlide}>
         <svg class="flickityt4s-button-icon" viewBox="0 0 100 100"><path d="M 10,50 L 60,100 L 65,95 L 20,50  L 65,5 L 60,0 Z" class="arrow"></path></svg>
+      
         </div>
         <div className="icon" onClick={nextSlide}>
         <svg class="flickityt4s-button-icon" viewBox="0 0 100 100"><path d="M 10,50 L 60,100 L 65,95 L 20,50  L 65,5 L 60,0 Z" class="arrow" transform="translate(100, 100) rotate(180) "></path></svg>
+
         </div>
       </div>
     </div>

@@ -1,8 +1,9 @@
 .slider{
-  height: calc(100vh - 80px);
+  height: calc(78vh - 82px);
   width: 100vw;
   position: relative;
   overflow: hidden;
+  transform: translateY(20px);
 
   .container{
     width: 300vw;
@@ -13,7 +14,7 @@
     img{
       width: 100vw;
       height: 100%;
-      object-fit: cover;
+      object-fit: inherit;
     }
   }
 
@@ -24,13 +25,14 @@
     left: 0;
     right: 0;
     bottom: 100px;
-    gap: 10px;
+    gap: 1350px;
     margin: auto;
 
     .icon{
-      width: 50px;
+      width: 29px;
       height: 50px;
-      border: 1px solid #999;
+      margin-left: 11px;
+      transform: translateY(-93px);
       display: flex;
       align-items: center;
       justify-content: center;

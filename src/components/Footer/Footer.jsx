@@ -1,6 +1,6 @@
 import React from "react";
 import "./Footer.scss";
-
+import photo4 from "../../assets - Copy/beauty.png"
 const Footer = () => {
   return (
     <div className="footer">
@@ -9,8 +9,6 @@ const Footer = () => {
           <h1>Categories</h1>
           <span>Women</span>
           <span>Men</span>
-          <span>Shoes</span>
-          <span>Accessories</span>
           <span>New Arrivals</span>
         </div>
         <div className="item">
@@ -22,33 +20,22 @@ const Footer = () => {
           <span>Cookies</span>
         </div>
         <div className="item">
-          <h1>About</h1>
+          <h1>Contact Us</h1>
           <span>
-            Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore. Lorem ipsum dolor sit
-            amet conse ctetur adipisicing elit, seddo eiusmod tempor incididunt
-            ut labore etdolore.
-          </span>
-        </div>
-        <div className="item">
-          <h1>Contact</h1>
-          <span>
-            Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore. Lorem ipsum dolor sit
-            amet conse ctetur adipisicing elit, seddo eiusmod tempor incididunt
-            ut labore etdolore.
+            You Can Call Us By
+            01200587217
           </span>
         </div>
       </div>
       <div className="bottom">
         <div className="left">
-          <span className="logo">Lamastore</span>
+          <span className="logo"><img src={photo4}/></span>
           <span className="copyright">
-            © Copyright 2023. All Rights Reserved
+            © Copyright 2024 Beautify3. All Rights Reserved
           </span>
         </div>
         <div className="right">
-          <img src="/img/payment.png" alt="" />
+          
         </div>
       </div>
     </div>
